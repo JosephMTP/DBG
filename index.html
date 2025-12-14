@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dao Box Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <button id="backToStartBtn" class="back-to-start-btn" style="display: none;">&lt;</button>
+        <div class="game-header">
+            <h1>🍎 Dao Dao Dao 🍎</h1>
+            <div class="score-board">
+                <div class="score">Score: <span id="score">0</span></div>
+                <div class="timer" id="timerContainer" style="display: none;">
+                    Time: <span id="timer">0:00</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="start-screen" id="startScreen">
+            <div class="game-info">
+                <h3>How to Play</h3>
+                <ul>
+                    <li>Drag to select peaches in a rectangular area</li>
+                    <li>When the sum of selected peaches equals 10, they will be removed</li>
+                    <li>Clear as many peaches as possible to achieve a high score</li>
+                    <li>Removed peaches do not respawn - plan your moves carefully!</li>
+                </ul>
+            </div>
+            <h2>Select Game Mode</h2>
+            <div class="mode-buttons">
+                <button class="mode-btn" data-mode="2min">2 Minutes</button>
+                <button class="mode-btn" data-mode="1min">1 Minute<br><small>+5s per sum of 10</small></button>
+                <button class="mode-btn" data-mode="infinity">No Timer</button>
+            </div>
+        </div>
+        
+        <div class="game-area" id="gameArea" style="display: none;">
+            <div class="grid-container" id="gridContainer"></div>
+            <div class="selection-box" id="selectionBox"></div>
+        </div>
+        
+        <div class="game-over-screen" id="gameOverScreen" style="display: none;">
+            <h2>Game Over!</h2>
+            <p>Final Score: <span id="finalScore">0</span></p>
+            <button id="restartBtn" class="game-btn">Play Again</button>
+        </div>
+        
+        <div class="instructions" id="instructions" style="display: none;">
+            <p>Drag to select fruits. If the sum equals 10, they will be removed! Clear as many as possible!</p>
+        </div>
+    </div>
+    
+    <script src="game.js"></script>
+</body>
+</html>
