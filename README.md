@@ -1,16 +1,15 @@
-# 🍎 Fruit Box Game
+# 🍎 Dao Box Game
 
-A number matching puzzle game where you drag to select apples and remove them when their sum equals 10!
+A browser-based number matching puzzle game where you drag to select apples and remove them when their sum equals **10**
 
 ## How to Play
 
 1. Open `index.html` in your web browser
 2. You'll see a 17×10 grid filled with numbers from 1 to 9
 3. Click and drag to select a box of apples (cells)
-4. The selected sum is displayed at the top
-5. When the sum equals **10**, release the mouse button
-6. The selected apples will be removed and replaced with new random numbers!
-7. Try to clear as many apples as possible and achieve a high score!
+4. When the sum equals **10**, release the mouse button
+5. The selected apples will be removed and replaced with new random numbers!
+6. Try to clear as many apples as possible and achieve a high score!
 
 ## Game Features
 
