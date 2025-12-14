@@ -2,6 +2,8 @@
 
 A browser-based number matching puzzle game where you drag to select apples and remove them when their sum equals **10**
 
+👉 **Play online:** https://josephmtp.github.io/DBG/
+
 ## How to Play
 
 1. Open `index.html` in your web browser
@@ -24,9 +26,7 @@ A browser-based number matching puzzle game where you drag to select apples and 
 
 - Click and hold on any cell to start selecting
 - Drag to create a rectangular selection box
-- The sum of all selected cells is shown in real-time
 - When the sum equals 10, release to remove those cells
-- Removed cells are automatically refilled with new random numbers
 - Keep playing to achieve higher scores!
 
 ## Tips
