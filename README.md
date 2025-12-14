@@ -1,6 +1,6 @@
 # 🍎 Dao Box Game
 
-A browser-based number matching puzzle game where you drag to select apples and remove them when their sum equals **10**
+A browser-based number matching puzzle game where you drag to select peaches and remove them when their sum equals **10**
 
 👉 **Play online:** https://josephmtp.github.io/DBG/
 
@@ -8,10 +8,10 @@ A browser-based number matching puzzle game where you drag to select apples and 
 
 1. Open `index.html` in your web browser
 2. You'll see a 17×10 grid filled with numbers from 1 to 9
-3. Click and drag to select a box of apples (cells)
+3. Click and drag to select a box of peaches (cells)
 4. When the sum equals **10**, release the mouse button
-5. The selected apples will be removed and replaced with new random numbers!
-6. Try to clear as many apples as possible and achieve a high score!
+5. The selected peaches will be removed and replaced with new random numbers!
+6. Try to clear as many peaches as possible and achieve a high score!
 
 ## Game Features
 
